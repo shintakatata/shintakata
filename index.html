@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Books管理システム</title>
+<!-- style-->
+<style>
+body{
+  font-size:14pt;
+  text-align: center;
+}
+.qrcode-text-btn {
+  display: inline-block;
+  background-color:black;
+  width: 160px;
+  cursor: pointer;
+  color:white;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+.warning{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+</style>
+</head>
+
+<!--html-->
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <h2 class=title>本の収納をしやすくするやつ</h2>
+    <a href="pic2shop://scan?callback=フォーム内容を送信するGASのwebアプリケーションURL（後ほど記載）?isbn=EAN">
+      <div class=qrcode-text-btn>バーコードリーダーを開く</div>
+    </a>
+  <p class="warning">バーコードの読み取りにはpic2shopというアプリが必要です。<br /><a href="https://apps.apple.com/jp/app/barcode/id308740640?l=en">こちらからDLしてください。</a></p>
+</body>
+</html>
